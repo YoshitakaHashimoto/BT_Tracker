@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent toNormal = new Intent(this,NormalActivity.class);
         startActivity(toNormal);
     }
+
+    public void gotoMechanismActivity(View view) {
+        Intent toMechanism = new Intent(this,MechanismActivity.class);
+        startActivity(toMechanism);
+    }
 }
