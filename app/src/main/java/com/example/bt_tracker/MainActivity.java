@@ -3,6 +3,7 @@ package com.example.bt_tracker;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -27,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
     public void gotoMechanismActivity(View view) {
         Intent toMechanism = new Intent(this,MechanismActivity.class);
         startActivity(toMechanism);
+    }
+
+    public void gotoLink1(View view) {
+        Intent toLink1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
+        startActivity(toLink1);
     }
 }
