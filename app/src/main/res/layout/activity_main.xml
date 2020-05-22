@@ -68,7 +68,7 @@
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
-            android:layout_height="10dp"
+            android:layout_height="1dp"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -80,9 +80,18 @@
             android:layout_weight="1"
             android:background="#4CAF50"
             android:onClick="gotoNormalActivity"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Check Normal Range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/mainButton3"
@@ -91,17 +100,28 @@
             android:layout_weight="1"
             android:background="#4CAF50"
             android:onClick="gotoMechanismActivity"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Mechanism of Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/MainButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#4CAF50"
+            android:background="#2196F3"
             android:onClick="gotoLink1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Handing Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
