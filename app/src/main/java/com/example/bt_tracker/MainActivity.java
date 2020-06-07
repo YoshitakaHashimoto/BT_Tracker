@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             NotificationChannel channel = new NotificationChannel(channelID,channelName, importance);
             channel.setDescription(channelDescription);
             NotificationManager notificationManager = getSystemService(NotificationManager.class);
-            assert notificationManager != null;
             notificationManager.createNotificationChannel(channel);
         }
     }

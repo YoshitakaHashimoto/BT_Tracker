@@ -14,7 +14,7 @@ public class ReminderBroadcastReceiver extends BroadcastReceiver {
         // TODO: This method is called when the BroadcastReceiver is receiving
         // an Intent broadcast.
         NotificationCompat.Builder builder= new
-    NotificationCompat.Builder(context,"BT_Tracker_channel")
+    NotificationCompat.Builder(context,"BT_Tracker_Channel")
                   .setSmallIcon(R.mipmap.ic_launcher_round)
                   .setContentTitle("Notification from BT Tracker")
                   .setContentText("Please log your body temperature now")

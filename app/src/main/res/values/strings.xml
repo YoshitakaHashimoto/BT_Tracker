@@ -5,4 +5,9 @@
     <string name="mechanism_of_fever">Mechanism of Fever</string>
     <string name="handing_fever">Handing Fever</string>
     <string name="bt_tracker">BT Tracker</string>
+    <string name="please_log_your_temperature_today">Please log your temperature Today</string>
+    <string name="save">Save</string>
+    <string name="nomal_human_body_temperature_is_between_36_0_and_37_5">Nomal human body temperature is between 36.0 and 37.5</string>
+    <string name="why_do_we_have_fever">Why do we have fever?</string>
+    <string name="useful_links_about_fever">Useful Links about Fever</string>
 </resources>
