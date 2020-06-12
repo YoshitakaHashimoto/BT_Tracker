@@ -6,12 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".LogActivity">
 
+    <View
+        android:id="@+id/Log_Activity_Background"
+        android:layout_width="412dp"
+        android:layout_height="727dp"
+        android:background="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/LogTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FFCAD4"
         android:text="@string/please_log_your_temperature_today"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,6 +47,7 @@
         android:id="@+id/LogSaveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FFFFFF"
         android:text="@string/save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
