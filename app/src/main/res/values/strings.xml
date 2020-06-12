@@ -10,4 +10,5 @@
     <string name="nomal_human_body_temperature_is_between_36_0_and_37_5">Nomal human body temperature is between 36.0 and 37.5</string>
     <string name="why_do_we_have_fever">Why do we have fever?</string>
     <string name="useful_links_about_fever">Useful Links about Fever</string>
+    <string name="set_reminder">Set Reminder</string>
 </resources>

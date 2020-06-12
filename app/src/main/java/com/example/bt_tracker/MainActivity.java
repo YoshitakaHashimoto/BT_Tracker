@@ -40,6 +40,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView mainButton4 = findViewById(R.id.MainButton4);
         // Add "an ear" to mainButton4
         mainButton4.setOnClickListener(this);
+
+        TextView setReminderButton = findViewById(R.id.setReminderButton);
+        // Add "an ear" to setReminderButton
+        setReminderButton.setOnClickListener(this);
     }
 
     @Override
