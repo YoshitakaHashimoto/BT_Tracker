@@ -72,7 +72,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (toLink1.resolveActivity(getPackageManager()) != null) {
                     startActivity(toLink1);
                 }
-            case R.id.SetReminder:
+                break;
+            case R.id.setReminderButton:
                 // When user clicks "SET REMINDER" button, a toast message will pop up to let user know that are reminder is set
                 Toast.makeText(this, "Reminder set!", Toast.LENGTH_SHORT).show();
                 // Create an intent object to start the ReminderBroadcastReceiver Class
