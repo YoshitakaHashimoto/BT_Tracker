@@ -4,17 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textColor="#6a4c93"
+    android:background="#FDF2F4"
     tools:context=".NormalActivity">
 
     <TextView
         android:id="@+id/NormalTextView1"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:text="@string/normal_human_body_temperature_is_between_36_0_and_37_5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#6a4c93"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <ScrollView
+        android:id="@+id/normalTextScroll"
+        android:layout_width="401dp"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NormalTextView1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/normalLongText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#feeafa"
+            android:text="@string/normalRangeText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nomal_human_body_temperature_is_between_36_0_and_37_5"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="BACK TO HOME"
+        android:onClick="normalToHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintTop_toBottomOf="@+id/normalTextScroll"
+        app:layout_constraintVertical_bias="0.284"
+        tools:ignore="OnClick" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
