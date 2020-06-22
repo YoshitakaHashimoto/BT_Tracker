@@ -11,7 +11,8 @@
     <string name="why_do_we_have_fever">Why do we have fever?</string>
     <string name="useful_links_about_fever">Useful Links about Fever</string>
     <string name="set_reminder">Set Reminder</string>
-　　　<string name="normalRangeText">
+    　　　
+    <string name="normalRangeText">
     Temperature control (thermoregulation) is part of a homeostatic mechanism
     that keeps the organism at optimum operating temperature, as the temperature
     affects the rate of chemical reactions. In humans, the average internal

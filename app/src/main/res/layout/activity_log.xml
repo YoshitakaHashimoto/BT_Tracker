@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:text="@string/save"
+        android:onClick="confirmBT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
