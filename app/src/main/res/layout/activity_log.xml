@@ -8,8 +8,8 @@
 
     <View
         android:id="@+id/Log_Activity_Background"
-        android:layout_width="412dp"
-        android:layout_height="727dp"
+        android:layout_width="414dp"
+        android:layout_height="736dp"
         android:background="#00BCD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
