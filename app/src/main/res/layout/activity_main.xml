@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/MainTitle"
-        android:layout_width="112dp"
+        android:layout_width="107dp"
         android:layout_height="30dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
@@ -61,7 +61,7 @@
         <TextView
             android:id="@+id/MainButton1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="41dp"
             android:layout_weight="1"
             android:background="#4CAF50"
             android:paddingLeft="10dp"
