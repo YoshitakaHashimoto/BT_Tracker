@@ -117,6 +117,25 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
+            android:id="@+id/MainButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/have_fun"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
             android:id="@+id/MainButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,6 +146,7 @@
             android:text="@string/handing_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
+
     </LinearLayout>
 
     <Button
