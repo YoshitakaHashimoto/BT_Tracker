@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button setReminderButton = findViewById(R.id.setReminderButton);
         // Add "an ear" to setReminderButton
         setReminderButton.setOnClickListener(this);
+
+        TextView mainButton5 = findViewById(R.id.MainButton5);
+        // Add "an ear" to MainButton1
+        mainButton5.setOnClickListener(this);
     }
 
     @Override
@@ -91,6 +95,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         System.currentTimeMillis(), interval,pd);
 
                 break;
+
+            case R.id.MainButton5:
+                // IF MainButton1 is clicked, do something
+                Intent toEnjoy = new Intent(this, Enjoy.class);
+                startActivity(toEnjoy);
+                break;
+
         }
     }
 
